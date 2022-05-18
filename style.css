@@ -1,0 +1,39 @@
+body {
+    background-color: darkgrey;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+.counter {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    padding-top: 50px;
+}
+.counter h3{
+    font-size: 70px;
+}
+
+button{
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    box-shadow: 5px 5px 15px rgb(46, 46, 46);
+    margin: 0px 15px
+    
+}
+button:hover{
+    box-shadow:5px 5px 12px rgb(0, 0, 0);
+    font-size: 31px;
+    
+
+    
+}
+#decrease{
+    background-color: rgb(255, 114, 114);
+}
+
+#increase{
+    background-color: rgb(124, 255, 124);
+}
